@@ -1,7 +1,0 @@
-1.first create a custom component under the apps/{your project name}/component of type cq:component
-2.Add a property   name= componentGroup        type= string        value= {your project name}/Content
-3.Add a html file to define the structure.
-4.Add a cq:dialog and copy properties from the already existing components cq:dialog
-5.Now you can add your custom componet into your page.
-6.Validation needs to be done by js file so create a folder of type=cq:ClientLibraryFolder
-7.There you can add your js file for validation.
